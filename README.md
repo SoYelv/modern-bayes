@@ -42,7 +42,11 @@ Before starting the course for the fall semester, I would highly recommend revie
 - [Intro to R, Part IV](https://github.com/resteorts/modern-bayes/blob/master/lecturesModernBayes20/background-intro-to-R/introToR-partIV.pdf)
 - [Intro to R, Part V](https://github.com/resteorts/modern-bayes/blob/master/lecturesModernBayes20/background-intro-to-R/introToR-partV.pdf)
 - [Intro to R, Videos](https://github.com/resteorts/modern-bayes/tree/master/lecturesModernBayes20/background-intro-to-R/videos)
-- Reference Text: http://shop.oreilly.com/product/9780596809164.do (The R Cookbook, not to be confused with the one for graphics). 
+- Reference Text: http://shop.oreilly.com/product/9780596809164.do (The R Cookbook, not to be confused with the one for graphics).
+
+## Common distributions
+
+
 
 ## github
 
@@ -73,6 +77,7 @@ https://onlinecourses.science.psu.edu/stat504/node/59
 - [Statistical Inference](https://mybiostats.files.wordpress.com/2015/03/casella-berger.pdf), Review Ch 1 - 5. 
 - [Statistical Inference Solutions](http://www.ams.sunysb.edu/~zhu/ams570/Solutions-Casella-Berger.pdf)
 - [Review Notes](https://github.com/resteorts/modern-bayes/blob/master/reading/babybayes-master.pdf)
+  
 
 # Practice Problems for Exams 
 
