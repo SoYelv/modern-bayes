@@ -46,7 +46,7 @@ Before starting the course for the fall semester, I would highly recommend revie
 
 ## Common distributions
 
-
+https://github.com/resteorts/modern-bayes/blob/master/common-distributions/03-common-distributions.pdf
 
 ## github
 
