@@ -46,16 +46,11 @@ Before starting the course for the fall semester, I would highly recommend revie
 
 ## Common distributions
 
-https://github.com/resteorts/modern-bayes/blob/master/common-distributions/03-common-distributions.pdf
+[Common Distriubtions](https://github.com/resteorts/modern-bayes/blob/master/common-distributions/03-common-distributions.pdf)
 
 ## github
 
-Please learn github if you're not already familiar as this is where the course resources are located. https://lab.github.com/). Homework releases and submissions will be done on Sakai. 
-
-
-## Other
-
-If Sakai is problematic for you due to your location, please let me know in advance, so I can think of alternative options, such as uploads via github. If you are having internet issues, please let me know as well. 
+Please review github usage if you are rusty on this or unfamiliar. 
 
 
 ## Other readings :
