@@ -1,7 +1,9 @@
 ---
 title: 'Homework 2'
 author: "STA-360-602"
-output: pdf_document
+output: 
+  pdf_document:
+    extra_dependencies: ["bbm"]
 indent: true
 documentclass: article
 ---
@@ -20,11 +22,11 @@ Total pts: 3 (reproducibility) + 9 (Q1) + 10 (Q2) + 15 (Q3) = 37\
 
 2. (10  points total) *The Exponential-Gamma Model*
 We write $X\sim Exp(\theta)$ to indicate that $X$ has the Exponential distribution, that is, its p.d.f. is
-$$ p(x|\theta) = Exp(x|\theta) = \theta\exp(-\theta x)\mathbb{1}(x>0). $$
+$$ p(x|\theta) = Exp(x|\theta) = \theta\exp(-\theta x)\mathbbm{1}(x>0). $$
 The Exponential distribution has some special properties that make it a good model for certain applications. It has been used to model the time between events (such as neuron spikes, website hits, neutrinos captured in a detector), extreme values such as maximum daily rainfall over a period of one year, or the amount of time until a product fails (lightbulbs are a standard example).
 
 Suppose you have data $x_1,\dotsc,x_n$ which you are modeling as i.i.d. observations from an Exponential distribution, and suppose that your prior is $\theta\sim Gamma(a,b)$, that is,
-$$ p(\theta) = Gamma(\theta|a,b) = \frac{b^a}{\Gamma(a)}\theta^{a-1}\exp(-b\theta) \mathbb{1}(\theta>0). $$
+$$ p(\theta) = Gamma(\theta|a,b) = \frac{b^a}{\Gamma(a)}\theta^{a-1}\exp(-b\theta) \mathbbm{1}(\theta>0). $$
 
   (a) (3) Derive (step by step) the posterior density, $p(\theta|x_{1:n})$. Give the form of the posterior in terms of one of the most common distributions (Bernoulli, Beta, Exponential, or Gamma). 
   (b) (2) Why is the posterior distribution a *proper* density or probability distribution function? 
