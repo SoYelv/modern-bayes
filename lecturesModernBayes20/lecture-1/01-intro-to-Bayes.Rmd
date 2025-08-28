@@ -373,7 +373,7 @@ by the integral definition of the Beta function.
 
 Posterior predictive distribution
 ===
-- At times, we may wish to find the \textcolor{red}{conditional distribution of $x_{n+1}$ given $x_{1:(n+1)}.$}
+- At times, we may wish to find the \textcolor{red}{conditional distribution of $x_{n+1}$ given $x_{1:n}.$}
 - \textcolor{red}{Assumption 1}: Assume that $x_{1:(n+1)}$ are independent given $\theta$
 
 
