@@ -207,18 +207,20 @@ On the other hand, if $1-p > 10p,$ the optimal decision is to not carry the umbr
 Exercise (continued)
 ===
 
-5. \textbf{Find the action that minimizes the posterior risk when p = 0.2.}
+5. \textbf{Find the action that minimizes the posterior risk when $p = 0.2.$}
 
-Then the posterior risk from carrying the umbrella is $1-p = 0.8$ and the posterior risk from not carrying the umbrella is $10p = 2.$ 
+- The posterior risk from carrying the umbrella is $1-p = 0.8.$ 
+- The posterior risk from NOT carrying the umbrella is $10p = 2.$ 
 
-In this situation and fixed value of p, the posterior risk is minimized by carrying the umbrella. 
-
-
-See written details here: \url{https://github.com/resteorts/modern-bayes/blob/master/reading/babybayes-master.pdf} pages 99--
-100.
+In this situation, that statistician assumes less Bayes risk of getting wet by carrying his umbrella around.
 
 
+See written details here: \url{https://github.com/resteorts/modern-bayes/blob/master/reading/babybayes-master.pdf} pages 99--100, which cover this material more in depth and cover more examples. 
 
+Exercise (continued)
+===
+
+What is value of $p$ that results in the two situations having equal Bayes risk? (Complete this on your own). 
 
 
 General setup
@@ -450,10 +452,11 @@ Posterior risk
 # Compute the posterior risk given c.
 # S is the number of random draws.
 posterior_risk <- function(c, s = 30000) {
-  # Randow draws from posterior distribution,
+  # Random draws from posterior distribution,
   # which is a beta with params an and bn.
   theta <- rbeta(s, an, bn)
   # Calculating values of the loss times the posterior.
+  # apply(vector, margin = 1, function, additional arguments to function)
   loss <- apply(as.matrix(theta), 1, loss_function, c)
   # average values from the loss function (integral)
   mean(loss)
@@ -472,7 +475,7 @@ head(post_risk)
 Posterior expected loss/posterior risk for disease prevelance
 ===
 ```{r}
-# Plot posterior risk against c.
+# Plot posterior risk against c and saves to pdf.
 pdf(file = "posterior-risk.pdf")
 plot(c, post_risk, type = "l", col = "blue",
     lwd = 3, ylab = "p(c, x)")
