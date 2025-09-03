@@ -330,14 +330,14 @@ Recall that $$\rho(\theta, \delta(x)) = \E(\theta^2|x_{1:n}) - 2{\delta}(x))\E(\
 \begin{align*}
 \frac{\partial \rho(\theta,\delta(x))}{\partial {\delta}(x))} 
 &= \frac{\partial \{\E(\theta^2|x_{1:n}) - 2{\delta}(x))\E(\theta|x_{1:n}) +{\delta}^2(x))\}}{\partial {\delta{x}}} \\
-&= -2 \E(\theta|x_{1:n}) + 2 {\theta}
+&= -2 \E(\theta|x_{1:n}) + 2 \delta(x)
 \end{align*}
 
 Proof (continued)
 ===
 
 Now, let 
-$$ 0 -2 \E(\theta|x_{1:n}) + 2 \delta(x) =: 0, $$
+$$  -2 \E(\theta|x_{1:n}) + 2 \delta(x) =: 0, $$
 which implies that $$\delta(x) = \E(\theta|x_{1:n}).$$
 
 Because the loss function is convex, $\delta(x) = \E(\theta|x_{1:n})$ is the unique solution.\footnote{Alternatively, the second partial derivative is 0, which is non-negative implying the function is convex and the solution is unique.}
