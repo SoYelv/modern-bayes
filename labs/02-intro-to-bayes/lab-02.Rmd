@@ -13,7 +13,7 @@ Let's derive the Beta-Binomial distribution.
 
 Assume that
 
-$$X\mid \theta \sim \text{Binomial} (\theta),$$
+$$X\mid \theta \sim \text{Binomial} (n, \theta),$$
 $$\theta \sim \text{Beta}(a,b),$$
 where $a,b > 0$ are assumed to be fixed, known parameters. What is the posterior distribution of $\theta \mid X$?
 

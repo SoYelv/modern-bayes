@@ -107,7 +107,7 @@ We have reproduced Figure 1, and shown that the minimum of posterior risk occurs
 
 Now we perform a sensitivity analysis for the prior assumption on $\theta$.
 
-We set $a  = 0.05, 1, 0.05$ and $b = 1, 2, 10$.
+We set $a  = 0.05, 1, 0.05$ and $b = 1, 1, 10$.
 
 If we have different values of $a,b$, the posterior risk is minimized at different values of $c$. The optimal c depends on not only the data, but also the prior setting.  
 
@@ -132,7 +132,7 @@ plot(c, post_risk[2,], type = 'l', col='red', lty = 2, yaxt = "n", ylab = "")
 par(new = T)
 plot(c, post_risk[3,], type = 'l', lty = 3, yaxt = "n", ylab = "")
 legend("bottomright", lty = c(1,2,3), col = c("blue", "red", "black"), 
-       legend = c("a = 0.05 b = 1", "a = 1 b = 1", "a = 0.05 b = 5"))
+       legend = c("a = 0.05 b = 1", "a = 1 b = 1", "a = 0.05 b = 10"))
 ```
 
 Remark: There is a more automated solution but this is one of most simple solutions and is completely correct. 
@@ -289,7 +289,7 @@ The Bayes estimator has lower frequentist risk than the sample mean estimator fo
 When $\theta$ is close to 0 or 1, sample mean estimator has lower frequentist risk than Bayes estimator. In general, the Bayes estimator is the best estimator for most of $\theta$ values whereas the constant estimator is the best estimator for $\theta$ values close to 0.1. 
 
 
-Takeaway: one estimator might work better for some $\theta$ values whereas another estimator might work better for other $\theta$ valuea. Thus, all three estimators are admissible (no estimator is every strictly better than another estimator). 
+Takeaway: one estimator might work better for some $\theta$ values whereas another estimator might work better for other $\theta$ values. Thus, all three estimators are admissible (no estimator is every strictly better than another estimator). 
 
 
 
