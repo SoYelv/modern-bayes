@@ -10,8 +10,6 @@ font-size: 8px
 ---
 
 
-
-
 Agenda
 ===
 - The normal distribution
@@ -175,9 +173,9 @@ p(\theta|x_{1:n})&\propto p(\theta) p(x_{1:n}|\theta) \\
          \exp\big(\lambda (\textstyle\sum x_i) \theta -\tfrac{1}{2}n\lambda\theta^2\big)\\
 &= \exp\Big((\lambda_0\mu_0+\lambda\textstyle\sum x_i)\theta-\tfrac{1}{2}(\lambda_0+ n\lambda)\theta^2\Big)\\
 &= \exp(L M\theta-\tfrac{1}{2}L\theta^2)\\
-&\overset{\text{(b)}}{\propto} \N(M\mid\theta,L^{-1}) =\N(\theta\mid M,L^{-1}),
+&\overset{\text{(b)}}{\propto} =\N(\theta\mid M,L^{-1})
 \end{align*}
-where step (a) uses Equations \ref{equation:prop} and \ref{equation:prior}, and step (b) uses Equation \ref{equation:prop} with $x=M$ and $\ell=L$.
+ where step (a) uses Equations \ref{equation:prop} and \ref{equation:prior}, and step (b) uses Equation \ref{equation:prior}. 
 
 
 Posterior derivation (continued)
