@@ -34,11 +34,11 @@ $$\E_X[h(x)] = \textcolor{red}{\int_X h(x) f(x)\; dx}$$ which is \emph{intractab
 
 \vspace*{1em}
 
-\textbf{Example}: Suppose the $h(x)=1$ for all $x.$
+\textbf{Example}: Suppose $h(x)=x$ for all $x.$
 
 \vspace*{1em}
 
-$$\E_f[h(x)] = \E_f[X] = \textcolor{red}{\int_X x f(x)\; dx}$$
+$$\E_f[h(X)] = \E_f[X] = \textcolor{red}{\int_X x f(x)\; dx}$$
 
 
 Monte Carlo Sampling
