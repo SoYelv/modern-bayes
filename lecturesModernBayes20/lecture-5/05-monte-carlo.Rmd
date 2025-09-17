@@ -9,6 +9,12 @@ output:
 font-size: 8px
 ---
 
+Announcements
+===
+
+- Please make sure that your .Rmd files for homework compile to .pdf format moving forward
+- If you're having an issue with this, please talk to any member of the teaching team moving forward
+
 
 Agenda
 ===
@@ -238,7 +244,7 @@ Background: inverse CDF method
 ===
 
 For a random variable $X$ with c.d.f. $F,$ define the generalized CDF as
-$$F^{-1}(u) = min\{x: F(x) \geq u\}.$$
+$$F^{-1}(u) = \text{min}\{x: F(x) \geq u\}.$$
 If $$U \sim Uniform(0,1)$$ then $$F^{-1}(U) \sim X.$$
 
 Illustration
@@ -263,8 +269,8 @@ U <- runif(nsim)
 X <- -log(U)
 Y <- rexp(nsim)
 par(mfrow=(c(1,2)))
-hist(X, freq=FALSE, main="Exponenial via Uniform")
-hist(Y, freq=FALSE, main="Exponenial via R")
+hist(X, freq=FALSE, main="Exponenial via inverse CDF method")
+hist(Y, freq=FALSE, main="Exponenial distn directly")
 ```
 
 Rejection Sampling
@@ -487,14 +493,14 @@ It follows that the optimal value of $c,$ denoted by $\hat{c}$ is
 \hat{c} = \max_x \frac{\tilde{f}(x)}{q(x)}. 
 \end{align}
 
-Equivalent to Andrea's Lab
-===
+<!-- Equivalent to Andrea's Lab -->
+<!-- === -->
 
-This result is equivalent to what Andrea did in lab, where he assumed that $f(x) = \tilde{f}(x)$ and $\alpha = \frac{1}{c}.$ 
+<!-- This result is equivalent to what Andrea did in lab, where he assumed that $f(x) = \tilde{f}(x)$ and $\alpha = \frac{1}{c}.$  -->
 
-In Andrea's lab, the optimal $\alpha$ will be $\min(q/f).$ 
+<!-- In Andrea's lab, the optimal $\alpha$ will be $\min(q/f).$  -->
 
-It's fine to use either formulation, but I would recommend choosing one or the other for consistency. 
+<!-- It's fine to use either formulation, but I would recommend choosing one or the other for consistency.  -->
 
 
 Takeaways
@@ -779,29 +785,29 @@ An ideal histogram would be highly centered around the true value of 1.81.  For 
 
 
 
-Exam I
-===
+<!-- Exam I -->
+<!-- === -->
 
-- Open notes, open book. 
-- This is a closed exam to speaking to others except your instructor and teaching assistants until the exam grades have been released to all students. 
-- You will be given cover page with distributions. 
-- This exam will be held virtually in case that anyone falls ill or needs to quarantine. 
-- Please make sure that you arrive early and not late to the zoom session so that you do not miss any announcements. 
-- Please only ask questions privately through the chat and do not broadcast these to everyone. 
-- Material covers: Modules 1--4. 
-- Material covers lectures (slides and written material in class), labs, and homeworks. 
-- You will be given 30 minutes after the exam to upload one PDF document to Gradescope and assign pages. 
+<!-- - Open notes, open book.  -->
+<!-- - This is a closed exam to speaking to others except your instructor and teaching assistants until the exam grades have been released to all students.  -->
+<!-- - You will be given cover page with distributions.  -->
+<!-- - This exam will be held virtually in case that anyone falls ill or needs to quarantine.  -->
+<!-- - Please make sure that you arrive early and not late to the zoom session so that you do not miss any announcements.  -->
+<!-- - Please only ask questions privately through the chat and do not broadcast these to everyone.  -->
+<!-- - Material covers: Modules 1--4.  -->
+<!-- - Material covers lectures (slides and written material in class), labs, and homeworks.  -->
+<!-- - You will be given 30 minutes after the exam to upload one PDF document to Gradescope and assign pages.  -->
 
 
-Exam I
-===
+<!-- Exam I -->
+<!-- === -->
 
-- Under the syllabus, you are not allowed to speak to anyone regarding the exam except the instructor until the results (grades) are released back to you. 
+<!-- - Under the syllabus, you are not allowed to speak to anyone regarding the exam except the instructor until the results (grades) are released back to you.  -->
 
-Exam Dates II and III
-===
+<!-- Exam Dates II and III -->
+<!-- === -->
 
-These dates are tentative on the calendar and I will announce these more formally in the next few weeks. Please be careful regarding booking travel during class times. 
+<!-- These dates are tentative on the calendar and I will announce these more formally in the next few weeks. Please be careful regarding booking travel during class times.  -->
 
 Module I (Recap)
 ===
