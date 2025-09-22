@@ -161,7 +161,7 @@ Hard Discs in a Box Example
 $X \sim f(x)$ (Boltzman distribution). 
 
 \vskip 1em
-Goal: compute $E_f[h(x)].$
+Goal: compute $E_f[h(X)].$
 
 \vskip 1em
 Since $X$ is high dimensional, they proposed ``clever moves" of the molecules. 
@@ -226,7 +226,7 @@ Here, we show one entire iteration of the algorithm.
     \end{center}
 \end{figure}
 
-After running many iterations $n$ (not $N$), we have an approximation for $E_f(h(X)),$ which is
+After running many iterations $n$ (not $N$), we have an approximation for $E_f[h(X)],$ which is
 $\frac{1}{n} \sum_i h(X_i).$
 
 We will talk about the details later of why this is a ``good approximation."
@@ -275,7 +275,7 @@ The approach is to apply the ergodic theorem.
 \begin{enumerate}
 \item If we run the Markov chain long enough, then the last state is approximately from $\pi.$
 \item Under some regularity conditions, 
-$$\frac{1}{n}\sum_{i=1}^n f(X_i) \stackrel{a.s}{\longrightarrow} E_\pi[f(x)].$$
+$$\frac{1}{n}\sum_{i=1}^n f(X_i) \stackrel{a.s}{\longrightarrow} E_\pi[f(X)].$$
 \end{enumerate}
 
 Terminology
@@ -309,7 +309,7 @@ Goal: run $n$ total iterations of the algorithm to produce $(x_o, x_1, \ldots, x
 
 \vspace*{1em}
 
-This is useful as $$\sum_{i=1}^n f(x_i) \approx E_\pi[f(x)].$$
+This is useful as $$\frac{1}{n}\sum_{i=1}^n f(x_i) \approx E_\pi[f(X)].$$
 
 Metropolis Algorithm
 ===
@@ -317,8 +317,8 @@ Metropolis Algorithm
 For \textcolor{red}{$i \in 1,2,\ldots,n$:}
 \begin{itemize}
 \item Sample a new data point $x^{*}$ from $Q(x_i, x^{*})$ if $x$ is discrete, otherwise, $p(x^{*} \mid x_i).$
-\item Sample $\textcolor{red}{r}$ from Uniform$(0,1).$
-\item If $$r < \frac{\tilde{\pi}(x^{*})}{\tilde{\pi}(x_i)},$$ accept and $x_{i+1} = x^{*}.$ \textcolor{red}{accept the new data point}
+\item Sample $\textcolor{red}{u}$ from Uniform$(0,1).$
+\item Let $$r = \frac{\tilde{\pi}(x^{*})}{\tilde{\pi}(x_i)}.$$ If $u < r$, accept and $x_{i+1} = x^{*}.$ \textcolor{red}{accept the new data point}
 \item Otherwise, reject and $x_{i+1} = x_i.$ \textcolor{red}{keep the current data point}
 \end{itemize}
 Output: $x_o,x_1,\ldots,x_n$

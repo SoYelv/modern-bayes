@@ -36,7 +36,7 @@ This means that $x = u^{-1/4}.$ It follows that $$u = x^4 \implies du = 4 x^3 dx
 
 It then can be shown that
 \begin{align*}
-\int_{-\infty}^\infty \exp(-x^{-4})\,dx &= 2\int_0^\infty \exp(-x^{-4})\,dx \\
+\int_{-\infty}^\infty \exp(-x^{4})\,dx &= 2\int_0^\infty \exp(-x^{4})\,dx \\
 &= 2\int_0^\infty \frac{\exp(-u)}{4u^{3/4}} \, du \\
 &= 2^{-1/2}\int_0^\infty u^{1/4-1}e^{-u}\,du \\
 &= \frac{\Gamma(1/4)}{2} \\
@@ -50,20 +50,20 @@ In this task, we perform Monte carlo. Let $y=\sqrt{2}x^{2}$.  We will perform $u
 
 Note that 
 
-$$y=\sqrt{2}x^{2} \implies  x = y^{-1/2} 2^{-1/4}$$
-and $$y=\sqrt{2}x^{2} \implies  x^2 = y^2/2.$$
+$$y=\sqrt{2}x^{2} \implies  x = y^{1/2} 2^{-1/4}$$
+and $$y=\sqrt{2}x^{2} \implies  x^4 = y^2/2.$$
 
 In addition, 
 
 $$y=\sqrt{2}x^{2} \implies 
 dy = \sqrt{2} \times 2x dx \implies 
-dy = \sqrt{2} \times 2 y^{-1/2} \times 2^{-1/4} dx.$$
+dy = \sqrt{2} \times 2 y^{1/2} \times 2^{-1/4} dx \implies dy = 2^{5/4} \times y^{1/2} dx \implies dx = 2^{-5/4} \times y^{-1/2} dy.$$
 
 This implies that
 
 \begin{align*}
-I &= \int_{-\infty}^{\infty}\exp(-x^{4})\,dx \\
-&=2^{-1/2} \int_{0}^{\infty}\frac{2^{1/4}\exp(-y^{2}/2)}{\sqrt{y}}\,dy \\
+I &= \int_{-\infty}^{\infty}\exp(-x^{4})\,dx \\ &= 2\int_{0}^{\infty}\exp(-x^{4})\,dx \\
+&=2 \cdot 2^{-5/4} \int_{0}^{\infty}\frac{\exp(-y^{2}/2)}{\sqrt{y}}\,dy \\
 &=2^{-1/4} \int_{0}^{\infty}\frac{\sqrt{2\pi}\exp(-y^{2}/2)}{\sqrt{2\pi}\sqrt{y}}\,dy \\
 &=2^{-1/4} \int_{0}^{\infty}\sqrt{\frac{2\pi}{y}}\phi(y)\,dy\\
 &= 2^{-5/4} \int_0^\infty\sqrt{\frac{2\pi}{y}}2\phi(y)\,dy.
@@ -98,7 +98,7 @@ Finally, we also investigate sometihng further than what was asked in the lab as
 &= \int_{-10}^{10} \frac{20\exp(-x^4)}{20}\,dx,
 \end{align*}
 
-which represents the expecation of $20\exp(-x^4)$ over the uniform distribution on $[-10,10]$.  
+which represents the expectation of $20\exp(-x^4)$ over the uniform distribution on $[-10,10]$.  
 
 \textbf{Comparison of Methods}
 The results of 10,000 simulations using the three methods described above are summarized in Table \ref{ex1table}; the true value is included for comparison.  Of these methods, multiplying and dividing by the standard normal density and then sampling from this density seems to yield the best estimate, which is both closer to the true value and has lower standard error.  The other two methods are comparable in both their estimates and standard errors.  
@@ -120,6 +120,7 @@ True value & 1.81 &  \\
 
 ```{r}
 knitr::opts_chunk$set(cache=TRUE)
+set.seed(1)
 library(xtable)
 # define target functions for MC estimate
 mc1 <- function(x){
