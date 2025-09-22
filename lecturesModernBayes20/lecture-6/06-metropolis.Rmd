@@ -255,7 +255,7 @@ Have $f: \mathcal{X} \rightarrow \mathbb{R}.$
 Goal: 
 \begin{enumerate}
 \item[a)] sample/approximate from $\pi$
-\item[b)] approximate $E_\pi[f(x)], X\sim \pi.$
+\item[b)] approximate $E_\pi[f(X)], X\sim \pi.$
 \end{enumerate}
 
 The assumption is that $\pi$ and or $f(X)$ are complicated!
