@@ -16,6 +16,7 @@ Announcements
 - If you're having an issue with this, please talk to any member of the teaching team moving forward
 - The notes have been updated to hopefully make the rejection sampling material more clear from last time
 and I will highlight some of these points today in class. 
+- Information regarding the upcoming quiz will be shared soon! 
 
 
 Agenda
@@ -42,7 +43,7 @@ $$\E_X[h(x)] = \textcolor{red}{\int_X h(x) f(x)\; dx}$$ which is \emph{intractab
 
 \vspace*{1em}
 
-\textbf{Example}: Suppose the $h(x)=1$ for all $x.$
+\textbf{Example}: Suppose the $h(x)=x$ for all $x.$
 
 \vspace*{1em}
 
