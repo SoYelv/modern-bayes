@@ -580,7 +580,7 @@ Code (continued)
 ===
 ```{r}
 ##S = total num of simulations
-theta<-0 ; delta<-1 ; S<-50 ; THETA<-NULL
+theta<-0 ; delta<-1 ; S<-1000 ; THETA<-NULL
 
 for(s in 1:S){
 ## simulating our proposal
@@ -597,6 +597,7 @@ if(log(runif(1))<log.r) {
 THETA<-c(THETA,theta) ##updating THETA
 
 }
+
 ```
 
 Code (continued)
@@ -609,7 +610,7 @@ head(THETA)
 Code (continued)
 ===
 ```{r, echo=FALSE}
-# two plots: trace of theta and 
+# two plots: trace of theta and
 # comparing the empirical distribution
 # of simulated values to the true posterior
 pdf("metropolis_normal-500.pdf",
@@ -646,7 +647,7 @@ if(log(runif(1))<log.r) { theta<-theta.star }
 ##updating THETA
 THETA<-c(THETA,theta)
 }
-# two plots: trace of theta and 
+# two plots: trace of theta and
 # comparing the empirical distribution
 # of simulated values to the true posterior
 pdf("metropolis_normal-10000.pdf",
