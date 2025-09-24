@@ -33,6 +33,7 @@ Quiz I
 Quiz I
 ===
 
+- On this exam, you will not be expected to do any coding/programming, however you may be asked to provide interpretations beyond derivations. 
 - You are not allowed to speak to anyone regarding the exam except the instructor until the results (grades) are released back to you.
 
 
