@@ -18,6 +18,23 @@ Announcements
 and I will highlight some of these points today in class. 
 - Information regarding the upcoming quiz will be shared soon! 
 
+Quiz I
+===
+
+- Open notes, open book.
+- This is a closed exam to speaking to others except your instructor and teaching assistants until the exam grades have been released to all students.
+- You will be given cover page with distributions.
+- This exam will be released over Gradescope and you must complete the assignment during the class period time. 
+- Material covers: Modules 1--4.
+- Material covers lectures (slides and written material in class), labs, and homeworks.
+- You will be given 30 minutes after the exam to upload one PDF document to Gradescope and assign pages.
+
+
+Quiz I
+===
+
+- You are not allowed to speak to anyone regarding the exam except the instructor until the results (grades) are released back to you.
+
 
 Agenda
 ===
@@ -907,29 +924,8 @@ Takeaways
 
 
 
-<!-- Exam I -->
-<!-- === -->
-
-<!-- - Open notes, open book.  -->
-<!-- - This is a closed exam to speaking to others except your instructor and teaching assistants until the exam grades have been released to all students.  -->
-<!-- - You will be given cover page with distributions.  -->
-<!-- - This exam will be held virtually in case that anyone falls ill or needs to quarantine.  -->
-<!-- - Please make sure that you arrive early and not late to the zoom session so that you do not miss any announcements.  -->
-<!-- - Please only ask questions privately through the chat and do not broadcast these to everyone.  -->
-<!-- - Material covers: Modules 1--4.  -->
-<!-- - Material covers lectures (slides and written material in class), labs, and homeworks.  -->
-<!-- - You will be given 30 minutes after the exam to upload one PDF document to Gradescope and assign pages.  -->
 
 
-<!-- Exam I -->
-<!-- === -->
-
-<!-- - Under the syllabus, you are not allowed to speak to anyone regarding the exam except the instructor until the results (grades) are released back to you.  -->
-
-<!-- Exam Dates II and III -->
-<!-- === -->
-
-<!-- These dates are tentative on the calendar and I will announce these more formally in the next few weeks. Please be careful regarding booking travel during class times.  -->
 
 Module I (Recap)
 ===
