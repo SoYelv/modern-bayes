@@ -78,11 +78,32 @@ https://onlinecourses.science.psu.edu/stat504/node/59
 
 [Practice Problems for Exams](https://github.com/resteorts/modern-bayes/tree/master/exercises)
 
-# Research Readings
+# Research Readings (to be updated)
 
 - MCMC Convergence Diagnostics
    1. Roy (2020): https://www.annualreviews.org/content/journals/10.1146/annurev-statistics-031219-041300
    2. Jones and Qin (2022): https://www.annualreviews.org/content/journals/10.1146/annurev-statistics-040220-090158
    3. Aleshin Guendel and Steorts (2024): https://www.annualreviews.org/content/journals/10.1146/annurev-statistics-040522-114848
+ 
+- Record Linkage/Entity Resolution
+   1. Binette and Steorts (2022): https://www.science.org/doi/10.1126/sciadv.abi8021
+   2. Steorts (2015): https://projecteuclid.org/journals/bayesian-analysis/volume-10/issue-4/Entity-Resolution-with-Empirically-Motivated-Priors/10.1214/15-BA965SI.full
+   3. Marchant et al. (2022): https://arxiv.org/abs/1909.06039
+   4. Sadinle (2017): https://www.tandfonline.com/doi/abs/10.1080/01621459.2016.1148612
+   5. Enamorando et al. (2019): https://imai.fas.harvard.edu/research/linkage.html
+   6. Kundinger et. al (2025): https://projecteuclid.org/journals/bayesian-analysis/advance-publication/Efficient-and-Scalable-Bipartite-Matching-with-Fast-Beta-Linkage-fabl/10.1214/24-BA1427.full
+   7. Guha et at al. (2022): https://arxiv.org/pdf/2002.09119 (Causal Inference) 
+ 
+- Network Analysis
+   1. Goldenberg (2009): https://arxiv.org/abs/0912.5410
+   2. Fienberg (2012): https://www.stat.cmu.edu/~brian/780/hw01/Fienberg%20(2012)%20A%20Brief%20History%20of%20Statistical%20Models%20for%20Network%20Analysis%20and%20Open%20Challenges.pdf
+ 
+ 
+- Variational Inference
+  1. Blei et al. (2016): https://www.tandfonline.com/doi/full/10.1080/01621459.2017.1285773
+ 
+     
+     
+      
       
 
