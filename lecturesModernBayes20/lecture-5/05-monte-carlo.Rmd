@@ -23,12 +23,21 @@ Quiz I
 
 - Open notes, open book.
 - This is a closed exam to speaking to others except your instructor and teaching assistants until the exam grades have been released to all students.
-- You will be given cover page with distributions.
-- This exam will be released over Gradescope and you must complete the assignment during the class period time. 
+- You will be given a cover page with distributions.
+- This exam will be released over Gradescope at the start of class 10:05 AM and you must complete the assignment no later than 11:20 AM. 
+- You will be given 30 minutes after the exam to upload one PDF document to Gradescope and assign pages.
 - Material covers: Modules 1--4.
 - Material covers lectures (slides and written material in class), labs, and homeworks.
-- You will be given 30 minutes after the exam to upload one PDF document to Gradescope and assign pages.
 
+Quiz I
+===
+
+- You must upload a single PDF file to Gradescope and label your pages.
+- You can write your solutions on your own paper, a tablet, etc. 
+- You are not required (or expected) to type your solutions. 
+- You may utilize software to help pull your written solutions into a single PDF for uploading purposes. 
+- If you use AI software, you must cite this in your write up (or this violates the exam policy). 
+- You are not allowed to search for solutions to the problems (or utilize any prior solutions that have been written). 
 
 Quiz I
 ===
@@ -61,11 +70,10 @@ $$\E_X[h(x)] = \textcolor{red}{\int_X h(x) f(x)\; dx}$$ which is \emph{intractab
 
 \vspace*{1em}
 
-<<<<<<< HEAD
+
 \textbf{Example}: Suppose $h(x)=x$ for all $x.$
 =======
-\textbf{Example}: Suppose the $h(x)=x$ for all $x.$
->>>>>>> bb196d72551269be12753a1d66e961b7746c7963
+
 
 \vspace*{1em}
 
