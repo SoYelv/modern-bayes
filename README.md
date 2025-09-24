@@ -78,3 +78,11 @@ https://onlinecourses.science.psu.edu/stat504/node/59
 
 [Practice Problems for Exams](https://github.com/resteorts/modern-bayes/tree/master/exercises)
 
+# Research Readings
+
+- MCMC Convergence Diagnostics
+   1. Roy (2020): https://www.annualreviews.org/content/journals/10.1146/annurev-statistics-031219-041300
+   2. Jones and Qin (2022): https://www.annualreviews.org/content/journals/10.1146/annurev-statistics-040220-090158
+   3. Aleshin Guendel and Steorts (2024): https://www.annualreviews.org/content/journals/10.1146/annurev-statistics-040522-114848
+      
+
