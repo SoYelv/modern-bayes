@@ -17,8 +17,8 @@ output: pdf_document
 
 |          | Day       | Time          | Location              | Zoom
 |----------|-----------|---------------|-----------------------|
-| Lectures | Mon & Wed | 10:00 am - 11:15 am | Perkins 217         |  972 7448 1273
-| Lab01   | Thurs    | 3:05 pm - 4:20 pm | Old Chem 216       | 937 1662 9115
+| Lectures | Mon & Wed | 10:05 am - 11:20 am | Perkins 217         |  972 7448 1273
+| Lab01   | Thurs    | 3:05 pm - 4:20 pm | Old Chem 116       | 937 1662 9115
 | Lab02   | Thurs    | 4:40 pm - 5:55 pm | Social Sciences 136       | 937 1662 9115
 
 ** Please make sure that you have zoom information organized in case this is needed. The instructor and TA's are happy to meet with students outside of office hours by appointment.**
