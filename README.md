@@ -103,7 +103,9 @@ https://onlinecourses.science.psu.edu/stat504/node/59
   1. Blei et al. (2016): https://www.tandfonline.com/doi/full/10.1080/01621459.2017.1285773
  
      
-     
+- Clustering
+
+1. Dahl et. al (2022): https://www.tandfonline.com/doi/abs/10.1080/10618600.2022.2069779?casa_token=iZDqPfOhz_oAAAAA:RRaDVDExYSac6yOTu3C1vqblJR6Cw2UGKiKuVPbQMkHXmlg69fGLBBHmYAr0h5Lq8uNLUI9n5BlN     
       
       
 
