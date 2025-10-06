@@ -9,6 +9,16 @@ output:
 font-size: 8px
 ---
 
+Feedback on Course
+===
+
+- Please take a few minutes to fill out how the course is going and any improvements
+
+https://forms.gle/BXd36Zi37kM4rWsY8
+
+- The exams are still being finalized after we all have done a first pass at grading them. 
+- Thank you for your patience as we work to get these back to you as quickly as possible. 
+
 
 Agenda
 ===
